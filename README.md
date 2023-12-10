@@ -1,5 +1,5 @@
 # Undertale-Creator
-使用Lua开发简单的Undertale游戏
+使用Lua开发简单的Undertale游戏,它属于每一个Undertale爱好者
 
 ![icon](https://github.com/Yanxiyimengya/Undertale-Creator/assets/140093497/46e04029-2ae8-42d3-afba-20234cffe429)
 
