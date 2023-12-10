@@ -1,0 +1,38 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Undertale - Engine"
+run/main_scene="res://Scenes/GameScenes/main.tscn"
+config/features=PackedStringArray("4.2", "Mobile")
+config/icon="res://icon.svg"
+config/windows_native_icon="res://ICON/icon.ico"
+
+[autoload]
+
+LuaGlobal="*res://Lua/LuaGlobal.gd"
+AssetsManager="*res://Lua/AssetsManager.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/EnginePlugin/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://ExportSettings/": "red",
+"res://ICON/": "red",
+"res://UndertaleTestProject/": "green"
+}
+
+[rendering]
+
+renderer/rendering_method="mobile"

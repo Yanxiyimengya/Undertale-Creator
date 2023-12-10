@@ -1,0 +1,4 @@
+res://Scenes/GameScenes/main.tscn
+res://Lua/AssetsManager.gd
+res://Lua/LuaGlobal.gd
+res://Lua/Resources/CollisionShapes/Shape2D/LuaCollisionShapeRectangle.gd
