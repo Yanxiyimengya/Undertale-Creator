@@ -3,9 +3,9 @@ function Start()
 
     --Components.CollisionShape2D = 1234555;
 
-    myObject = Object2D();
-    myObject.AddComponent(Components.Sprite).texture = Assets.LoadImage('qwe.png');
-    myObject.AddComponent(Components.CollisionShape2D).AddShape(ShapeCircle(80));
+    myObject = Object2D(); -- 创建一个2D GameObject
+    myObject.AddComponent(Components.Sprite).texture = Assets.LoadImage('qwe.png'); -- 添加精灵
+    myObject.AddComponent(Components.CollisionShape2D).AddShape(ShapeCircle(80)); -- 添加碰撞体
     
     myObject2 = StaticBody2D();
     myObject2.rotation = 20;
